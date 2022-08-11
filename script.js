@@ -32,7 +32,7 @@ function onWindowResize() {
 }
 
 
-camera.position.z = 100;
+camera.position.z = 10;
 
 var hemiLight = new THREE.HemisphereLight(0xFFFFFF, 0.6);
 var directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
